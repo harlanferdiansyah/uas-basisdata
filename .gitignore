@@ -10,3 +10,8 @@ src/node_modules/
 # Environment files
 .env
 src/.env
+
+!metabase/data/
+!metabase/data/**
+!minio/data/
+!minio/data/**
