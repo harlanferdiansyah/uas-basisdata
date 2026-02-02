@@ -11,7 +11,8 @@ src/node_modules/
 .env
 src/.env
 
-!metabase/data/
-!metabase/data/**
-!minio/data/
-!minio/data/**
+# Runtime/data for services (should not be committed)
+metabase/data/
+metabase/data/**
+minio/data/
+minio/data/**
